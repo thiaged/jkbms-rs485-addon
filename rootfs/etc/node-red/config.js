@@ -33,26 +33,6 @@ config.contextStorage = {
   }
 };
 
-config.adminAuth = {
-  type: "credentials",
-  users: [
-    {
-      username: "pi",
-      password: "$2a$08$uGLFsGppdWnckZpomdNQveucw.zh8bkSWDO0Gnzj4Z0asqj91KKge",
-      permissions: "*"
-    }
-  ]
-};
-
-config.httpNodeAuth = {
-  user: "pi",
-  pass: "$2a$08$uGLFsGppdWnckZpomdNQveucw.zh8bkSWDO0Gnzj4Z0asqj91KKge"
-};
-
-config.httpStaticAuth = {
-  user: "pi",
-  pass: "$2a$08$uGLFsGppdWnckZpomdNQveucw.zh8bkSWDO0Gnzj4Z0asqj91KKge"
-};
 
 if (options.log_level) {
   config.logging.console.level = options.log_level.toLowerCase();
