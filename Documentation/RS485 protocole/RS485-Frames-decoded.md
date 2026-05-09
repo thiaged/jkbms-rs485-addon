@@ -114,7 +114,7 @@
 | 108 | 0x6C | 2 | int16le | Cell_15_ohm_R | Résistance cellule 15 (Ω) |
 | 110 | 0x6E | 2 | int16le | Cell_16_ohm_R | Résistance cellule 16 (Ω) |
 | 144 | 0x90 | 2 | int16le | Mos_temp_T | Température MOSFET (°C) |
-| 154 | 0x9A | 4 | uint32le | Puissance_Totale_W | Puissance totale (W) |
+| 154 | 0x9A | 4 | int32le | Puissance_Totale_W | Puissance totale (W) |
 | 158 | 0x9E | 4 | int32le | Courant_total_A | Courant total (A) |
 | 162 | 0xA2 | 2 | int16le | Sonde_1_temp_T | Température sonde 1 (°C) |
 | 164 | 0xA4 | 2 | int16le | Sonde_2_temp_T | Température sonde 2 (°C) |

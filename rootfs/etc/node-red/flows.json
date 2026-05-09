@@ -4152,7 +4152,7 @@
                 "mask": ""
             },
             {
-                "type": "uint32le",
+                "type": "int32le",
                 "name": "Puissance_Totale_W",
                 "offset": 154,
                 "length": 1,
@@ -8830,7 +8830,7 @@
                 "mask": ""
             },
             {
-                "type": "uint32le",
+                "type": "int32le",
                 "name": "Puissance_Totale_W",
                 "offset": 154,
                 "length": 1,
