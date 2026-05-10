@@ -33,6 +33,26 @@ config.contextStorage = {
   }
 };
 
+config.adminAuth = {
+  type: "credentials",
+  users: [
+    {
+      username: "thiaged",
+      password: "$2y$08$glpFrRgE52xXuushNiZcieD7tmv5NgDE1nSQ0SE8qoeUlQqzQ0.li",
+      permissions: "*"
+    }
+  ]
+};
+
+config.httpNodeAuth = {
+  user: "thiaged",
+  pass: "$2y$08$glpFrRgE52xXuushNiZcieD7tmv5NgDE1nSQ0SE8qoeUlQqzQ0.li"
+};
+
+config.httpStaticAuth = {
+  user: "thiaged",
+  pass: "$2y$08$glpFrRgE52xXuushNiZcieD7tmv5NgDE1nSQ0SE8qoeUlQqzQ0.li"
+};
 
 if (options.log_level) {
   config.logging.console.level = options.log_level.toLowerCase();
