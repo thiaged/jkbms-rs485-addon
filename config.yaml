@@ -49,6 +49,12 @@ options:
   # Telemetry
   Send_bip: true
 
+  # Filter options
+  filter_delta_cell_voltage: 0.5
+  filter_delta_temperature: 10
+  filter_delta_voltage: 10
+  filter_delta_current: 150
+
 schema:
   # JK-BMS Configuration
   jkbms_path: str
@@ -67,4 +73,10 @@ schema:
 
   # Telemetry
   Send_bip: bool
+
+  # Filter options
+  filter_delta_cell_voltage: float(0.1, 5)
+  filter_delta_temperature: float(1, 200)
+  filter_delta_voltage: float(1, 300)
+  filter_delta_current: float(1, 800)
 
