@@ -75,8 +75,8 @@ schema:
   Send_bip: bool
 
   # Filter options
-  filter_delta_cell_voltage: float(0.1, 5)
-  filter_delta_temperature: float(1, 200)
-  filter_delta_voltage: float(1, 300)
-  filter_delta_current: float(1, 800)
+  filter_delta_cell_voltage: float(0.1,5)
+  filter_delta_temperature: float(1,200)
+  filter_delta_voltage: float(1,300)
+  filter_delta_current: float(1,800)
 
