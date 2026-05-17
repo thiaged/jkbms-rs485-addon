@@ -51,9 +51,9 @@ options:
 
   # Filter options
   filter_delta_cell_voltage: 0.5
-  filter_delta_temperature: 10
-  filter_delta_voltage: 10
-  filter_delta_current: 150
+  filter_delta_temperature: 10.0
+  filter_delta_voltage: 10.0
+  filter_delta_current: 150.0
 
 schema:
   # JK-BMS Configuration
